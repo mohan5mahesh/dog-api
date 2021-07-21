@@ -1,0 +1,19 @@
+body {
+  display: grid;
+  place-items: center;
+}
+.dogImage {
+  height: 200px;
+  border-radius: 10%;
+}
+
+.Next {
+  border: none;
+  height: 10px;
+}
+.dogImage:hover {
+  transform: scale(1.2);
+}
+.Next:hover {
+  transform: scale(1.2);
+}
